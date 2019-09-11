@@ -23,6 +23,8 @@
 
 * Note: adding up the Total Volume for the regions we chose matches the Total Volume for the "TotalUS" category, so this implies our choice of regions are mutually exclusive and cover the whole country. (The set includes both California and "West", but these seem to be distinct).
 
+The "explore data.xslx" spreadsheet contains the exploratory data analysis where I made most of the above observations. I've included it with my submission for completeness, but it's not really intended for anyone other than me (so it's very messy!). 
+
 ## Model Results
 The model coefficients are below - note the baseline type is "conventional" and the baseline region is "West":
 
