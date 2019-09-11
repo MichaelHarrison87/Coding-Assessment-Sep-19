@@ -59,13 +59,13 @@ Melt butter in a pan; crack the eggs into it; mix the eggs; toast the bread
 
 So, for instance, joining all the tables for Recipe 1 gives something like:
 
-+-----------+----------------+-----------------+----------+---------------------------------------------------------+
-| recipe_id | recipe_name    | ingredient_name | quantity | instructions                                            |
-+-----------+----------------+-----------------+----------+---------------------------------------------------------+
-|         1 | Chocolate Cake | cocoa powder    | 2 tbsp   | Mix cocoa with flour; mix ... |
-|         1 | Chocolate Cake | flour           | 5 cup    | Mix cocoa with flour; mix ... |
-|         1 | Chocolate Cake | eggs            | 3        | Mix cocoa with flour; mix ... |
-+-----------+----------------+-----------------+----------+---------------------------------------------------------+
+    +-----------+----------------+-----------------+----------+---------------------------------------------------------+
+    | recipe_id | recipe_name    | ingredient_name | quantity | instructions                                            |
+    +-----------+----------------+-----------------+----------+---------------------------------------------------------+
+    |         1 | Chocolate Cake | cocoa powder    | 2 tbsp   | Mix cocoa with flour; mix ... |
+    |         1 | Chocolate Cake | flour           | 5 cup    | Mix cocoa with flour; mix ... |
+    |         1 | Chocolate Cake | eggs            | 3        | Mix cocoa with flour; mix ... |
+    +-----------+----------------+-----------------+----------+---------------------------------------------------------+
 
 ## JSON
 The API accepts and returns JSON. POST and PUT requests should have a JSON body - in a specified format I refer to as "recipe JSON" in the code. This object represents a recipe object - with a list of ingredients, the recipe's name and its instructions. For instance:
